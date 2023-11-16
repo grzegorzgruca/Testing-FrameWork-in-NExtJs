@@ -1,8 +1,7 @@
 export default function TestLayout({ children }) {
   return (
-    <>
-      <p className="test_p">layout</p>
+    <div className="bg-slate-600 w-full flex justify-center flex-col items-center">
       {children}
-    </>
+    </div>
   );
 }
