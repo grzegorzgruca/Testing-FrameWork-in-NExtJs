@@ -44,6 +44,12 @@ export default function Home() {
           Move!
         </Link>{" "}
       </section>
+      <section className="flex flex-col items-center justify-between mb-5">
+        <h2>Move to the example of parrarel page</h2>
+        <Link className="bg-white text-black" href="./parrarel">
+          Go to Parrarel page
+        </Link>
+      </section>
     </main>
   );
 }
